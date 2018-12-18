@@ -5,12 +5,13 @@ eureka:
 server:
   port: 8888
 
+
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/tangjiamei/spring-cloud.git
+          uri: https://github.com/tangjiamei/clouds.git
           searchPaths: spring-cloud/helloworldConfig
   application:
     name: config-server
