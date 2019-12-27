@@ -12,6 +12,7 @@ public class MaxTenuringThreshold {
 
 
     public static void main(String[] args) {
+        System.out.println("test");
         List<Object> oo = new ArrayList<>();
         for (int i = 0; i < 5 * _K; i++) {
             Object o=new byte[_K];
